@@ -54,7 +54,7 @@ git branch                                          // نمایش شاخه ها�
 
 git branch [branch name]                            // ساخت شاخه جدید
 
-git branch -M [new name]                            // تغییرنام شاخه فعلی
+git branch -M [new name]                            // تغییر نام شاخه فعلی
 
 git checkout [branch name]                          // جا به جایی بین شاخه ها
 
@@ -96,9 +96,13 @@ git config --get remote.origin.url                  // نمایش آدرس فع�
 
 git clone [url]                                     // دریافت یک کلون از پروژه
 
-git pull origin [current branch] 		            // دریافت تغییرات از محیط گیت هاب
+git pull                                            // دریافت تغییرات در مخزن گیت هاب
 
-git push origin [current branch] 		            // ذخیره تغییرات در محیط گیت هاب
+git push                                            // ذخیره تغییرات در مخزن گیت هاب
+
+git pull origin [current branch] 		            // دریافت تغییرات از ریموت مشخص
+
+git push origin [current branch] 		            // ذخیره تغییرات در ریموت مشخص
 
 git push origin [tag name]                          // افزودن تگ به محیط گیت هاب
 
