@@ -10,6 +10,8 @@ mkdir [folder]                                      // ساخت پوشه
 
 clear                                               // پاک کردن ترمینال
 
+echo [text] >> [file.extension]                     // نوشتن متن درون فایل بدون باز کردن
+
 
 
 # دستورات گیت
@@ -64,7 +66,7 @@ git branch -d [branch name]                         // حذف شاخه
 
 git checkout -b [branch name]                       // بازیابی شاخه حذف شده
 
-git branch -D [branch name]                         // حذف شاخه بدون هیچ پرسش
+git branch -D [branch name]                         // حذف شاخه شامل تغییرات ادغام نشده
 
 git branch -m [old name] [new name]                 // تغییر نام شاخه
 
