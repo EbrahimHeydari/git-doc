@@ -8,7 +8,7 @@ cat [file.extension]                                //نمایش محتویات 
 
 mkdir [folder]                                      // ساخت پوشه
 
-clear                                               // پاک کردن ترمینال
+clear || cls                                        // پاک کردن ترمینال
 
 echo [text] >> [file.extension]                     // نوشتن متن درون فایل بدون باز کردن
 
