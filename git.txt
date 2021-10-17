@@ -56,6 +56,8 @@ git branch                                          // نمایش شاخه ها�
 
 git branch [branch name]                            // ساخت شاخه جدید
 
+git push -u origin [branch name]                    // ذخیره ی شاخه درون ریموت
+
 git branch -M [new name]                            // تغییر نام شاخه فعلی
 
 git checkout [branch name]                          // جا به جایی بین شاخه ها
@@ -74,7 +76,7 @@ git branch -m [old name] [new name]                 // تغییر نام شاخ�
 
 git tag                                             // نمایش تگ ها (نسخه ها)
 
-git tag -a v1.0 -m 'message'                  // ساخت تگ (نسخه)
+git tag -a v1.0 -m 'message'                        // ساخت تگ (نسخه)
 
 git tag -d [tag name]                               // حذف تگ ها
 
