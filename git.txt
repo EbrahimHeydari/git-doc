@@ -74,7 +74,7 @@ git branch -m [old name] [new name]                 // تغییر نام شاخ�
 
 git tag                                             // نمایش تگ ها (نسخه ها)
 
-git tag -a v1.0 -m 'first version'                  // ساخت تگ (نسخه)
+git tag -a v1.0 -m 'message'                  // ساخت تگ (نسخه)
 
 git tag -d [tag name]                               // حذف تگ ها
 
