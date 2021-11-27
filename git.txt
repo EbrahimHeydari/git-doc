@@ -20,6 +20,8 @@ pwd                                                 // نمایش آدرس پر�
 
 git init                                            // تعیین گیت برای پروژه
 
+git update-git-for-windows                          // آپدیت کردن ویندوز
+
 git status                                          // بررسی وضعیت
 
 git add [file.extension]                            // افزودن فایل به استیج
