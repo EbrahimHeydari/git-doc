@@ -98,7 +98,7 @@ git remote set-url origin [url]                     // تغییر مسیر مخ�
 
 git remote rm [name]                                // حذف ریموت 
 
-git config --get remote.origin.url                  // نمایش آدرس فعلی مخزن
+git remote get-url origin                           // نمایش آدرس فعلی مخزن
 
 git clone [url]                                     // دریافت یک کلون از پروژه
 
