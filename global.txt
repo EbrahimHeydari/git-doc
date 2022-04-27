@@ -1,0 +1,43 @@
+# دستورات عمومی
+
+git init                                            // تعیین گیت برای پروژه
+
+git update-git-for-windows                          // آپدیت کردن ویندوز
+
+git status                                          // بررسی وضعیت
+
+git add [file.extension]                            // افزودن فایل به استیج
+
+git commit                                          // ذخیره ی نهایی (کامیت)
+
+git log                                             // نمایش لیست تغییرات کامیت ها
+
+git log -3 --oneline                                // نمایش تعداد مشخصی از کامیت ها
+
+git diff                                            // نمایش تغییرات استیج نشده
+
+git diff --staged                                   // تغییرات فایل ها در استیج
+
+git diff head                                       // نمایش تغییرات آخرین کامیت
+
+git reset                                           // خارج کردن تمامی فایل ها از استیج
+
+git reset -- [file.extension]                       // خارج کردن فایلی مشخص از استیج
+
+git reset [commit hash]                             // برگشتن به کامیت مشخص
+
+git show [commit hash]                              // نمایش تغییرات فایل ها در یک کامیت مشخص
+
+git diff [commit-hash-from] [commit-hash-to]        // نمایش تغییرات فایل ها بین دو کامیت مشخص
+
+git checkout -- [file.extension || folder ]         // برگرداندن آخرین تغییرات فایل || پوشه
+
+git restore --staged [file.extension]               // خارج کردن فایلی مشخص از استیج
+
+git rm  [file.extension || folder]                  // حذف فایل یا پوشه از گیت و سیستم
+
+
+
+* تمامی دستورات محیط گیت با کلمه ی (git) آغاز می شوند *
+
+* بهتر است برای هر کار، یک کامیت جداگانه تعریف کنید *

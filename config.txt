@@ -1,0 +1,11 @@
+# دستورات پیکربندی
+
+git config                                          // تنظیمات پیکربندی
+
+git config --global user.name                       // نمایش نام کاربری
+
+git config --global user.name  [name]               // تعیین نام کاربری
+
+git config --global user.email [email]              // تعیین ایمیل 
+
+git config --global color.ui auto                   // رنگی کردن دستورات

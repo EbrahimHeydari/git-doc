@@ -1,0 +1,23 @@
+# دستورات شاخه
+
+git branch                                          // نمایش شاخه های فعلی
+
+git branch -r                                       // نمایش شاخه های بر روی سرور (ریموت)
+
+git branch [branch name]                            // ساخت شاخه جدید
+
+git push -u origin [branch name]                    // ذخیره ی شاخه درون ریموت
+
+git branch -M [new name]                            // تغییر نام شاخه فعلی
+
+git checkout [branch name]                          // جا به جایی بین شاخه ها
+
+git merge [branch name / ❌ master]                 // ترکیب شاخه ها
+
+git branch -d [branch name]                         // حذف شاخه
+
+git checkout -b [branch name]                       // بازیابی شاخه حذف شده
+
+git branch -D [branch name]                         // حذف شاخه شامل تغییرات ادغام نشده
+
+git branch -m [old name] [new name]                 // تغییر نام شاخه

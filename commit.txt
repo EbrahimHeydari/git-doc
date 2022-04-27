@@ -1,0 +1,15 @@
+# دستورات کامیت
+
+git commit                                          // ذخیره ی نهایی (کامیت)
+
+git commit -am "message"                            // کامیت بدون استیج
+
+git commit -a --allow-empty-message                 // کامیت بدون مسیج
+
+git commit -m 'message'                             // ذخیره ی نهایی به همراه کامنت
+
+git commit --amend -m "message"                     // ویرایش پیام آخرین کامیت
+
+git commit --amend --no-edit                        // افزودن فایل به آخرین کامیت بدون نیاز به ثبت کامیت جدید
+
+git revert [commit hash]                            // تمام تغییرات یک کامیت برمی گرداند و یک کامیت جدید ایجاد می کند
