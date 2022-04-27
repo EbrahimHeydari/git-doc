@@ -21,3 +21,7 @@ git checkout -b [branch name]                       // بازیابی شاخه �
 git branch -D [branch name]                         // حذف شاخه شامل تغییرات ادغام نشده
 
 git branch -m [old name] [new name]                 // تغییر نام شاخه
+
+
+
+❌: مجاز نیست
