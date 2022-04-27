@@ -1,0 +1,15 @@
+# دستورات کلید و امضاء
+
+gpg --list-keys                                     // نمایش کلید های فعلی
+
+gpg --list-secret-keys --keyid-format long          // نمایش کلید های مخفی
+
+gpg --gen-key                                       // ساخت کلید
+
+git config --global user.signingkey                 // نمایش کلید
+
+git config --global user.signingkey [key]           // ایجاد کلید برای امضاء
+
+git tag -s [tag name] -m 'message'                  // ایجاد برچسب به همراه امضاء
+
+git commit -s -m 'message'                          // کامیت به همراه امضاء

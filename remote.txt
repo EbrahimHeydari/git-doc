@@ -1,0 +1,27 @@
+# دستورات ریموت
+
+git remote add origin [url]                         // تعیین مسیر مخزن برای پروژه
+
+git remote set-url origin [url]                     // تغییر مسیر مخزن پروژه
+
+git remote rm [name]                                // حذف ریموت 
+
+git remote get-url origin                           // نمایش آدرس فعلی مخزن
+
+git clone [url]                                     // دریافت یک کلون از پروژه
+
+git pull                                            // دریافت تغییرات در مخزن گیت هاب
+
+git push                                            // ذخیره تغییرات در مخزن گیت هاب
+
+git pull origin [current branch] 		                // دریافت تغییرات از ریموت مشخص
+
+git push origin [current branch] 		                // ذخیره تغییرات در ریموت مشخص
+
+git push origin [tag name]                          // افزودن تگ به محیط گیت هاب
+
+git remote                                          // نمایش ریموت های فعلی در گیت هاب
+
+git push origin -- tags                             // ذخیره تگ های جدید به محیط گیت هاب
+
+git checkout [tag name]                             // برگشتن به تگ مشخص
