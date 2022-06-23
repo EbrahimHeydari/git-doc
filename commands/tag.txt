@@ -1,9 +1,13 @@
 # دستورات تگ (شماره نسخه)
 
-git tag                                             // نمایش تگ ها (نسخه ها)
+git tag                                             // نمایش تگ ها
 
-git tag -a v1.0 -m 'message'                        // ساخت تگ (نسخه)
+git tag [tag name]                                  // ساخت تگ
+
+git tag -a [tag name] -m 'message'                  // ساخت تگ به همراه توضیحات
 
 git tag -d [tag name]                               // حذف تگ ها
 
 git show [tag name]                                 // نمایش تغییرات در تگ مشخص
+
+git push origin [tag name]                          // ذخیره تگ درون ریموت
